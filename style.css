@@ -29,7 +29,7 @@ button{
     color: white;
     border-radius: 5px;
     border: none;
-    padding: 5px 10px;
+    padding: 5px 20px;
 }
 
 a{
@@ -64,12 +64,12 @@ a{
     display: flex;
     gap: 50px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .main {
     text-align: center;
     background-color: white;
-    padding: 50px;
 }
 
 .information-header{
@@ -77,9 +77,45 @@ a{
     font-size: 32px;
     color: #1f2937;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .images img{
     height:300px;
     width:300px;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: none;
+    padding: 100px 300px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 50px 350px;                
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.sign-up button{
+    border: solid 1px white;
+}
+
+.sign-up-text{
+    color:#E5E7EB;
+    text-align: left;
+    font-weight:bold;
+}
+
+.footer{
+    text-align: center;
+    color:#E5E7EB;
+    padding: 10px;
+    margin: 0px;
 }
